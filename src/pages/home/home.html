@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-title>
+      Sangam Lyrical App
+    </ion-title>
+    <ion-buttons end>
+      <button (click)="addNewLyrics()" ion-button color="primary">
+
+        <ion-icon name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item-sliding *ngFor="let lyrics of lyricsList">
+
+      <ion-item >
+
+        <h4 (click)="viewLyrics(lyrics)">{{ lyrics.title }}</h4>
+        
+      </ion-item>
+
+      <ion-item-options side="left">
+          <button ion-button color="secondary" (click)="edit(lyrics)"><ion-icon name="create"></ion-icon> EDIT</button>
+          <button ion-button color="danger" (click)="delete(lyrics)"><ion-icon name="trash"></ion-icon> DELETE</button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>

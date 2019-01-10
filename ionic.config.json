@@ -1,0 +1,7 @@
+{
+  "name": "sgmnotes",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

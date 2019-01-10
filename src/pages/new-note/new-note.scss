@@ -1,0 +1,54 @@
+page-new-note {
+
+    ._input{
+
+        border: 1px solid black;
+        border-radius: 0px;
+        margin-bottom: 10px;
+        
+    }
+    .item-md.item-input.input-has-focus .item-inner {
+        border-bottom-color: transparent !important;
+        box-shadow: none !important;
+      }
+      
+      .list-md .item-input.input-has-focus:last-child {
+        border-bottom-color: transparent !important;
+        box-shadow: none !important;
+      }
+      
+      .list-md .item-input.input-has-focus:last-child .item-inner {
+        box-shadow: none;
+      }
+      
+      .item-md.item-input.ng-valid.input-has-value:not(.input-has-focus) .item-inner {
+        border-bottom-color: transparent !important;
+        box-shadow: none !important;
+      }
+      
+      .list-md .item-input.ng-valid.input-has-value:not(.input-has-focus):last-child {
+        border-bottom-color: transparent !important;
+        box-shadow: none !important;
+      }
+      
+      .list-md .item-input.ng-valid.input-has-value:not(.input-has-focus):last-child .item-inner {
+        box-shadow: none;
+      }
+      
+      .item-md.item-input.ng-invalid.ng-touched:not(.input-has-focus) .item-inner {
+        border-bottom-color: transparent !important;
+        box-shadow: none !important;
+      }
+      
+      .list-md .item-input.ng-invalid.ng-touched:not(.input-has-focus):last-child {
+        border-bottom-color: transparent !important;
+        box-shadow: none !important;
+      }
+
+      .card-content-md{
+
+        padding: 3px !important;
+      }
+      
+   
+}
